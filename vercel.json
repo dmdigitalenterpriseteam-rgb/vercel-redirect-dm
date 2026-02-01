@@ -1,6 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "destination": "https://www.dmdigitalenterprise.com/:path",
+      "permanent": true
+    }
   ]
 }
 
